@@ -9,7 +9,7 @@
 
 <html>
     <head>
-        <title>CÃ¡lculo Porcentagem</title>
+        <title>Cálculo Porcentagem</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
@@ -20,7 +20,7 @@
             
             List<ExemplosBase> e = new ArrayList<ExemplosBase>();
             
-            e.add(new ExemplosBase("<p>10 (Parte do Valor) de 20 (Valor Total) Ã© 50%</p>","<p>72 (Parte do Valor) de 90 (Valor Total) Ã© 80%</p>","<p>40 (Parte do Valor) de 100 (Valor Total) Ã© 40%</p>","<p>10 (Parte do Valor) de 50 (Valor Total) Ã© 20%</p>","<p>Podemos separar os exemplos em duas partes:</p>"));
+            e.add(new ExemplosBase("<p>10 (Parte do Valor) de 20 (Valor Total) é 50%</p>","<p>72 (Parte do Valor) de 90 (Valor Total) é 80%</p>","<p>40 (Parte do Valor) de 100 (Valor Total) é 40%</p>","<p>10 (Parte do Valor) de 50 (Valor Total) é 20%</p>","<p>Podemos separar os exemplos em duas partes:</p>"));
             
             for(ExemplosBase exemplo :e){
                 out.print(exemplo.getExemplo1());
@@ -49,7 +49,7 @@
         <div>
             <iframe name="valorfinal" width="300" height="200"></iframe>
         </div>
-        <br><br>
+        <br>
         
         <%=new DadosBase().getPorcentagem2()%>
         
@@ -57,7 +57,7 @@
             
             List<ExemplosBase2> b = new ArrayList<ExemplosBase2>();
             
-            b.add(new ExemplosBase2("<p>Se 10 (Parte do Valor) Ã©  50% (Porcentagem) , o total Ã© de 20</p>","<p>Se 72 (Parte do Valor) Ã©  80% (Porcentagem) , o total Ã© de 90</p>","<p>Se 40 (Parte do Valor) Ã©  40% (Porcentagem) , o total Ã© de 100</p>","<p>Se 10 (Parte do Valor) Ã©  20% (Porcentagem) , o total Ã© de 50</p>","<p>Podemos separar os exemplos em duas partes:</p>"));
+            b.add(new ExemplosBase2("<p>Se 10 (Parte do Valor) é  50% (Porcentagem) , o total é de 20</p>","<p>Se 72 (Parte do Valor) é  80% (Porcentagem) , o total é de 90</p>","<p>Se 40 (Parte do Valor) é  40% (Porcentagem) , o total é de 100</p>","<p>Se 10 (Parte do Valor) é  20% (Porcentagem) , o total é de 50</p>","<p>Podemos separar os exemplos em duas partes:</p>"));
             
             for(ExemplosBase2 base :b){
                 out.print(base.getExemplo5());
@@ -78,7 +78,7 @@
             <h4>Calcule o Valor Total</h4><br>
             <form action="calculoporcentagem2.jsp" method="get" target="valorfinal2">
                 Parte do Valor: <input type="text" name="parte2"><br>
-                Ã© de (Porcentagem): <input type="text" name="porcentagemtotal"><br><br>
+                é de (Porcentagem): <input type="text" name="porcentagemtotal"><br><br>
 
                 <input type="submit" name="enviar" value="Calcular o Total">       
             </form>
