@@ -63,8 +63,8 @@
                 out.print(base.getExemplo5());
                 out.print(base.getExemplo6());
                 out.print(base.getExemplo7());
-                out.print(base.getExemplo8()+ "<br>");
-                out.print(base.getSepararexemplos2()+ "<br>");
+                out.print(base.getExemplo8() + "<br>");
+                out.print(base.getSepararexemplos2() + "<br>");
             }
             
         %>
